@@ -342,9 +342,15 @@ ul {
 .gallery-card-item:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
-
+.gallery-card-item > img {
+  display: block;
+}
 .gallery-card-desc {
   padding: 20px 24px;
+
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .gallery-card-title {
   font-weight: 700;
