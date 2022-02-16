@@ -84,8 +84,8 @@ ul {
 }
 /* Header */
 .header-container {
-  padding-top: 32px;
-  padding-bottom: 17px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .header-nav {
   display: flex;
