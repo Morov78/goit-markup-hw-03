@@ -172,7 +172,7 @@ ul {
   line-height: 1.85;
   padding: 10px 32px;
   cursor: pointer;
-  border: 1px solid red;
+  border-width: 0px;
   border-radius: 4px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--bcg-button-primary);
