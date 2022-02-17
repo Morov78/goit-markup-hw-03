@@ -106,9 +106,9 @@ ul {
 /* header-nav */
 .header-nav-list {
   display: flex;
-  margin-left: 95px;
+  margin-left: 93px;
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 .header-nav-item:not(:first-child) {
@@ -124,7 +124,7 @@ ul {
 /* header-contacts */
 .header-contacts {
   display: flex;
-  margin-left: 330px;
+  margin-left: auto;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -215,6 +215,10 @@ ul {
 }
 
 /* section Servises */
+.services-container {
+  padding-top: 0px;
+}
+
 .services-list {
   display: flex;
 }
