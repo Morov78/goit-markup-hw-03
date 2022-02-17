@@ -77,13 +77,13 @@ ul {
 }
 .container {
   width: 1200px;
-  padding: 94px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 /* Header */
-.header-container {
+.header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -150,12 +150,11 @@ ul {
 .hero {
   background-color: var(--bgc-dark);
   letter-spacing: 0.06em;
-}
-.hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -194,6 +193,13 @@ ul {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.features-item {
+  flex-basis: 270px;
+}
 .features-item:not(:first-child) {
   margin-left: 30px;
 }
@@ -215,8 +221,10 @@ ul {
 }
 
 /* section Servises */
-.services-container {
+.services {
   padding-top: 0px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 
 .services-list {
@@ -237,6 +245,9 @@ ul {
 /* section team */
 .team {
   background-color: var(--bcg-team);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: center;
 }
 .team-list {
   display: flex;
@@ -268,13 +279,12 @@ ul {
 }
 
 /* Fotter */
-.footer-container {
+
+.footer {
+  background-color: var(--bgc-dark);
   text-align: left;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer {
-  background-color: var(--bgc-dark);
 }
 
 .logo-footer {
@@ -300,7 +310,10 @@ ul {
 }
 
 /* portfolio */
-
+.gallery {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* кнопки */
 .gallery-button-list {
   display: flex;
